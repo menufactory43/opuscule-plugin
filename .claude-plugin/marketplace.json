@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "opuscule-plugin",
+  "owner": { "name": "Opuscule", "url": "https://opuscule.app/" },
+  "metadata": { "description": "Opuscule : tes sessions avec tes agents, reliées en livre imprimé." },
+  "plugins": [
+    {
+      "name": "opuscule",
+      "source": "./plugins/opuscule",
+      "description": "Tes sessions Claude Code et Codex reliées en livre imprimé, composé et filtré sur ton Mac : état du volume, moments épinglés, Studio, archive des sessions (avec ton accord).",
+      "category": "productivity",
+      "homepage": "https://opuscule.app/claude-code/"
+    }
+  ]
+}

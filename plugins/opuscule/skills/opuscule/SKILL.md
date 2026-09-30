@@ -1,6 +1,6 @@
 ---
 name: opuscule
-description: Opuscule makes a printed book of the user's sessions with coding agents (Codex, Claude Code), one volume per quarter, composed and filtered on their Mac. Use when the user mentions their Opuscule book or volume, asks to keep or pin the current session or moment "for the book", wants to review, compose or order their book, or asks about book sizes and prices.
+description: Opuscule makes a printed book of the user's sessions with coding agents (Claude Code, Codex), one volume per quarter, composed and filtered on their Mac. Use when the user mentions their Opuscule book or volume, asks to keep or pin the current session or moment "for the book", wants to review, compose or order their book, or asks about book sizes and prices.
 ---
 
 # Opuscule
@@ -27,7 +27,8 @@ what happened, the images made), a quarterly report, a closing letter. The engin
 2. **"Keep this for the book"**: call `opuscule_pin_moment`. The exchange just before that request (the user's
    request and your answer, word for word) gets its own spread in the book. Pass `note` only with the user's own
    words about why; never invent one. Confirm in one sentence. If the tool says the project isn't in the volume,
-   ask whether to add it; on yes, call the tool again with `add_project_to_volume: true`.
+   ask whether to add it; on yes, call the tool again with `add_project_to_volume: true`. Works the same in Codex
+   and Claude Code: the tool finds the current session itself.
 3. **Offering a pin**: at most once per session, and only when something clearly worth remembering just happened
    (a first working version, a launch, an image the user loves), you may ask in one short line whether to keep
    the moment for the book. Never pin without the user's yes.
@@ -37,8 +38,8 @@ what happened, the images made), a quarterly report, a closing letter. The engin
 6. **Archive consent**: when `opuscule_volume_status` says archiving isn't chosen yet, ask the question it gives,
    as is, once. Yes: `opuscule_archive` with `enable`. No: `opuscule_archive` with `disable` (records the refusal,
    so the question isn't asked again). Never enable it without a clear yes. Erase the archive only when the user
-   explicitly asks, after confirming (`erase` with `confirm: true`). The plugin's end-of-turn hook does nothing
-   until the user said yes.
+   explicitly asks, after confirming (`erase` with `confirm: true`). The plugin's end-of-turn hook (Codex and Claude
+   Code) does nothing until the user said yes.
 
 ## Rules
 
