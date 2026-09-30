@@ -7,7 +7,7 @@ sur ton Mac.
 Ce plugin ajoute Opuscule à Codex :
 
 - **« @Opuscule où en est mon volume ? »** : sessions par projet, places dans le livre, données que le filtre retirera.
-- **« @Opuscule garde ce moment pour le livre »** : épingle la session en cours, elle aura sa place dans le volume.
+- **« @Opuscule garde ce moment pour le livre »** : l'échange qui vient d'avoir lieu aura sa double page dans le livre, tes mots et la réponse de l'agent tels quels.
 - **« @Opuscule ouvre le Studio »** : relecture, résumés, couverture et commande, dans ton navigateur.
 - **Formats et prix** du livre.
 
