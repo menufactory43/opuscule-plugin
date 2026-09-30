@@ -23,7 +23,7 @@ Les outils ne renvoient à Codex que des chiffres et des noms de projets, jamais
 
    ```sh
    codex plugin marketplace add menufactory43/opuscule-plugin
-   codex plugin add opuscule@opuscule
+   codex plugin add opuscule@opuscule-plugin
    ```
 
 Dans l'app Codex, le plugin apparaît aussi dans la liste des plugins une fois la source ajoutée.
@@ -32,7 +32,7 @@ Dans l'app Codex, le plugin apparaît aussi dans la liste des plugins une fois l
 
 **English.** Opuscule turns your sessions with coding agents into a printed book, composed and filtered on your Mac.
 Install Opuscule (`curl -fsSL https://opuscule.app/install.sh | sh`), then
-`codex plugin marketplace add menufactory43/opuscule-plugin` and `codex plugin add opuscule@opuscule`.
+`codex plugin marketplace add menufactory43/opuscule-plugin` and `codex plugin add opuscule@opuscule-plugin`.
 Ask Codex "where's my Opuscule volume?", "keep this moment for the book" or "open the Opuscule Studio".
 
 © Opuscule · [opuscule.app](https://opuscule.app/) · [Confidentialité](https://opuscule.app/confidentialite/)

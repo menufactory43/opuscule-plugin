@@ -1,11 +1,19 @@
 {
-  "name": "opuscule",
-  "interface": { "displayName": "Opuscule" },
+  "name": "opuscule-plugin",
+  "interface": {
+    "displayName": "Opuscule"
+  },
   "plugins": [
     {
       "name": "opuscule",
-      "source": { "source": "local", "path": "./plugins/opuscule" },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "source": {
+        "source": "local",
+        "path": "./plugins/opuscule"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Productivity"
     }
   ]
