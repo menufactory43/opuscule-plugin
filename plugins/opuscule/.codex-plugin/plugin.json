@@ -1,6 +1,6 @@
 {
   "name": "opuscule",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Opuscule (opuscule.app) : tes sessions Codex et Claude Code reliées en livre imprimé, composé et filtré sur ton Mac.",
   "author": { "name": "Opuscule", "url": "https://opuscule.app/" },
   "homepage": "https://opuscule.app/codex/",

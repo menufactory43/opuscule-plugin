@@ -42,6 +42,10 @@ what happened, the images made), a quarterly report, a closing letter. The engin
 
 ## Rules
 
+- Always go through the `opuscule_*` tools above, never the `opuscule` command in the terminal: the tools only
+  return counts and project names, and they carry the consent steps (archive question, pins). If the tools don't
+  show up at first, search for them (tool search) before anything else.
+
 - Everything stays on the Mac. The tools return counts and project names; don't ask the user to paste sessions
   into the chat, and don't read `~/.codex/sessions` or `~/.claude/projects` yourself to fill the book.
 - The user's words are never rewritten in the book: sensitive text is removed, not paraphrased.
