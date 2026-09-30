@@ -16,6 +16,7 @@ what happened, the images made), a quarterly report, a closing letter. The engin
 - `opuscule_pin_moment`: keep the current session, at this point of the conversation, for the book.
 - `opuscule_open_studio`: open the Studio in the browser (review pages, summaries, cover, order).
 - `opuscule_formats`: book sizes and prices.
+- `opuscule_archive`: the local archive of the user's sessions (status, enable, disable, erase).
 
 ## How to help
 
@@ -33,6 +34,11 @@ what happened, the images made), a quarterly report, a closing letter. The engin
 4. **Review, compose, order**: call `opuscule_open_studio` and tell the user it opened in their browser.
    Ordering happens only in the Studio, after the user approves every page; never order from the conversation.
 5. **Sizes and prices**: call `opuscule_formats`.
+6. **Archive consent**: when `opuscule_volume_status` says archiving isn't chosen yet, ask the question it gives,
+   as is, once. Yes: `opuscule_archive` with `enable`. No: `opuscule_archive` with `disable` (records the refusal,
+   so the question isn't asked again). Never enable it without a clear yes. Erase the archive only when the user
+   explicitly asks, after confirming (`erase` with `confirm: true`). The plugin's end-of-turn hook does nothing
+   until the user said yes.
 
 ## Rules
 

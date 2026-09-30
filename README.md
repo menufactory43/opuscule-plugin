@@ -10,6 +10,9 @@ Ce plugin ajoute Opuscule à Codex :
 - **« @Opuscule garde ce moment pour le livre »** : l'échange qui vient d'avoir lieu aura sa double page dans le livre, tes mots et la réponse de l'agent tels quels.
 - **« @Opuscule ouvre le Studio »** : relecture, résumés, couverture et commande, dans ton navigateur.
 - **Formats et prix** du livre.
+- **L'archive, si tu l'acceptes** : à chaque fin de tour, tes sessions et les images générées sont copiées sur ton Mac
+  (`~/.opuscule/archive`), pour qu'aucune ne se perde. Opuscule te pose la question une fois, et Codex te demande
+  aussi de valider ce réglage au lancement suivant.
 
 Les outils ne renvoient à Codex que des chiffres et des noms de projets, jamais le texte de tes sessions.
 
