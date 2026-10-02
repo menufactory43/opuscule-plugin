@@ -15,5 +15,6 @@
     "archive",
     "journal"
   ],
-  "types": "./types/index.d.ts"
+  "types": "./types/index.d.ts",
+  "hooks": "./hooks/claude-modules.json"
 }
