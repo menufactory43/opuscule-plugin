@@ -14,6 +14,15 @@ Ce plugin ajoute Opuscule à Claude Code et à Codex :
   (`~/.opuscule/archive`), pour qu'aucune ne se perde. Opuscule te pose la question une fois (et Codex te demande
   aussi de valider ce réglage au lancement suivant).
 
+Dans **Claude Code** (version récente, avec les mods), le plugin ajoute aussi :
+
+- **`/livre`** : un panneau à côté de la conversation avec ton volume en cours (pages, sessions, épinglés, jours
+  avant la clôture), les projets dans le livre ou hors du volume, un bouton pour ajouter le projet en cours,
+  la progression du Studio quand il travaille, et les boutons Épingler, Studio et Actualiser.
+- **La barre d'état** : `📖 automne 2026 · 12/37`.
+- **Une suggestion d'épinglage** après un tour qui compte (un commit, un long travail, beaucoup d'actions de l'agent),
+  une fois par session au plus.
+
 Les outils ne renvoient à l'agent que des chiffres et des noms de projets, jamais le texte de tes sessions.
 
 ## Installation

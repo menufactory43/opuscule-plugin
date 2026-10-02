@@ -1,8 +1,11 @@
 {
   "name": "opuscule",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Opuscule (opuscule.app) : tes sessions Codex et Claude Code reliées en livre imprimé, composé et filtré sur ton Mac.",
-  "author": { "name": "Opuscule", "url": "https://opuscule.app/" },
+  "author": {
+    "name": "Opuscule",
+    "url": "https://opuscule.app/"
+  },
   "homepage": "https://opuscule.app/codex/",
   "mcpServers": "./.mcp.json",
   "skills": "./skills/",
@@ -12,7 +15,11 @@
     "longDescription": "Opuscule fait un livre imprimé de ton travail avec tes agents : une double page par session, ta demande telle quelle, ce qui s'est passé, les images créées, un rapport du trimestre et une lettre de fin. Depuis Codex, demande où en est ton volume, épingle un moment au fil du travail pour qu'il ait sa place dans le livre, puis ouvre le Studio pour relire et commander. Si tu l'acceptes, il archive aussi tes sessions sur ton Mac à chaque fin de tour, pour qu'aucune ne se perde. Tout est lu et filtré sur ton Mac : les outils ne renvoient que des chiffres et des noms de projets, et rien n'est imprimé sans ta validation.",
     "developerName": "Opuscule",
     "category": "Productivity",
-    "capabilities": ["Interactive", "Read", "Write"],
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://opuscule.app/",
     "privacyPolicyURL": "https://opuscule.app/confidentialite/",
     "termsOfServiceURL": "https://opuscule.app/cgv/",

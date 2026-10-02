@@ -1,9 +1,19 @@
 {
   "name": "opuscule",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Opuscule (opuscule.app) : tes sessions Claude Code et Codex reliées en livre imprimé, composé et filtré sur ton Mac. État du volume, moments épinglés, Studio, archive des sessions avec ton accord.",
-  "author": { "name": "Opuscule", "url": "https://opuscule.app/" },
+  "author": {
+    "name": "Opuscule",
+    "url": "https://opuscule.app/"
+  },
   "homepage": "https://opuscule.app/claude-code/",
   "repository": "https://github.com/menufactory43/opuscule-plugin",
-  "keywords": ["book", "print", "sessions", "archive", "journal"]
+  "keywords": [
+    "book",
+    "print",
+    "sessions",
+    "archive",
+    "journal"
+  ],
+  "types": "./types/index.d.ts"
 }
