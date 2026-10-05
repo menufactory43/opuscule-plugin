@@ -31,7 +31,7 @@ curl -fsSL https://opuscule.app/install.sh | sh
 - **Stop and SessionEnd hooks**: `bin/archive-hook.sh` runs `opuscule archive --hook`, which copies sessions to
   `~/.opuscule/archive` only if you turned the archive on. Without Opuscule installed, it does nothing.
 - **The `/livre` panel** (`hooks/register.tsx`): runs Opuscule's local Python to read the volume status, add the
-  current project to the book, and open the Studio; it reads the Studio's log in `~/.opuscule/studio`.
+  current project to the book, and open the Studio; it reads the Studio's log in `~/.opuscule/studio`. Its Pin button submits one fixed prompt to Claude, "Épingle ce moment pour mon livre Opuscule." ("Pin this moment for my Opuscule book"), which calls the pin tool.
 
 The plugin itself sends nothing over the network. The Studio it opens runs on your Mac (`http://127.0.0.1`). The
 Opuscule app contacts Opuscule's server only when you order a print, after you approve the book, and Claude's API only
