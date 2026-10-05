@@ -1,7 +1,7 @@
 {
   "name": "opuscule",
-  "version": "0.5.0",
-  "description": "Opuscule (opuscule.app) : tes sessions Claude Code et Codex reliées en livre imprimé, composé et filtré sur ton Mac. État du volume, moments épinglés, Studio, archive des sessions avec ton accord.",
+  "version": "0.6.0",
+  "description": "Opuscule (opuscule.app): your Claude Code and Codex sessions bound into a printed book, composed and filtered on your Mac. Volume status, pinned moments, the Studio, and a session archive if you agree.",
   "author": {
     "name": "Opuscule",
     "url": "https://opuscule.app/"
@@ -16,5 +16,6 @@
     "journal"
   ],
   "types": "./types/index.d.ts",
-  "hooks": "./hooks/claude-modules.json"
+  "hooks": "./hooks/claude-modules.json",
+  "license": "MIT"
 }

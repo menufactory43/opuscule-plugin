@@ -1,0 +1,10 @@
+#!/bin/sh
+# Fin de tour et fin de session : copie les sessions dans ~/.opuscule/archive si l'utilisateur l'a accepté.
+# Sans Opuscule installé, le crochet lit son entrée et ne fait rien.
+PATH="$HOME/.local/bin:$PATH"
+if command -v opuscule >/dev/null 2>&1; then
+  opuscule archive --hook >/dev/null 2>&1
+else
+  cat >/dev/null
+fi
+exit 0
