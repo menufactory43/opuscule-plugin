@@ -1,12 +1,12 @@
 {
   "name": "opuscule",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Opuscule (opuscule.app): your Claude Code and Codex sessions bound into a printed book, composed and filtered on your Mac. Volume status, pinned moments, the Studio, and a session archive if you agree.",
   "author": {
     "name": "Opuscule",
     "url": "https://opuscule.app/"
   },
-  "homepage": "https://opuscule.app/claude-code/",
+  "homepage": "https://opuscule.app/en/claude-code/",
   "repository": "https://github.com/menufactory43/opuscule-plugin",
   "keywords": [
     "book",
@@ -17,5 +17,9 @@
   ],
   "types": "./types/index.d.ts",
   "hooks": "./hooks/claude-modules.json",
-  "license": "MIT"
+  "license": "MIT",
+  "documentationUrl": "https://github.com/menufactory43/opuscule-plugin/tree/main/plugins/opuscule#readme",
+  "supportUrl": "https://github.com/menufactory43/opuscule-plugin/issues",
+  "privacyPolicyUrl": "https://opuscule.app/en/privacy/",
+  "termsOfServiceUrl": "https://opuscule.app/en/terms/"
 }
